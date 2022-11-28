@@ -10,7 +10,7 @@ const Saying = () => {
   async function getData() {
     try {
       const res = await fetch(
-        "https://sayings-production.up.railway.app/sayings"
+        "https://node-api-tbxp.onrender.com/sayings"
       );
       if (!res.ok) {
         throw Error("ne mogu da fecujem");
